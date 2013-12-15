@@ -4,8 +4,9 @@ monty_hall_simulation
 Monte Carlo Simulation of the Monty Hall Problem
 
 In the Monty Hall game show, contestants try to guess which of 3 closed doors contain a cash prize (goats are behind the other two doors). Of course, the odds of choosing the correct door are 1 in 3. As a twist, the host of the show occasionally opens a door after a contestant makes his or her choice. This door is always one of the two the contestant did not pick, and is also always one of the goat doors (note that it is always possible to do this, since there are two goat doors). At this point, the contestant has the option of keeping his or her original choice, or swtiching to the other unopened door. The question is: is there any benefit to switching doors? The answer surprises many people who haven't heard the question before.
-We can answer the problem by running simulations in Python. We'll do it in several parts.
-First, write a function called `simulate_prizedoor`. 
+We can answer the problem by running simulations in Python. 
+First, write a function called `simulate_prizedoor`. Remember to include `Numpy` library by including at the top `import numpy as np`
+
 
 ```python
 def simulate_prizedoor(nsim):
